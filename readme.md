@@ -34,7 +34,7 @@ Hay 3 cosas que tienes que tener en cuenta:
 - Ese toggle sucederá en el momento que se clicke en un elemento. Por tanto es un evento 
 - Añadir clases a ciertos elementos es sencillo con el atrubuto classList
 
-Recuerda que si una CSS tiene otor elemento por encima es más definida y el valor prevalece sobre la otra. Por ejemplo no es lo mismo el valor que pueda tener `p` dentro de una clase `dark-mode` que sin esa clase.
+Recuerda que si una CSS tiene otro elemento por encima es más definida y el valor prevalece sobre la otra. Por ejemplo no es lo mismo el valor que pueda tener `p` dentro de una clase `dark-mode` que sin esa clase.
 
 En resumen deberás clickar en el elemento y pasar a modo oscuro y al volver a clickar colverá a la normalidad
 
