@@ -32,7 +32,7 @@ Cuando vuelvas a clickar en el botón de volverá todo a la normalidad
 Hay 3 cosas que tienes que tener en cuenta:
 - El togle lo que hace es como un interruptor ON/OFF. al pulsar sobre él enciende y cuando vuelves a pulsar deja de estar encendido
 - Ese toggle sucederá en el momento que se clicke en un elemento. Por tanto es un evento 
-- Añadir clases a ciertos elementos es sencillo con el atrubuto classList
+- Añadir clases a ciertos elementos es sencillo con el atributo classList
 
 Recuerda que si una CSS tiene otro elemento por encima es más definida y el valor prevalece sobre la otra. Por ejemplo no es lo mismo el valor que pueda tener `p` dentro de una clase `dark-mode` que sin esa clase.
 
