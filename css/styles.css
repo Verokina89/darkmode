@@ -48,8 +48,8 @@ table {
 /*-HEADERTOP-*/
 
 body {
-    transition: background-color 0.3s, color 0.3s;    /*all ease .2s; */
-    font-family: "poppins", sans-serif;
+    transition: all ease .5s;
+    font-family: "Poppins", sans-serif;
 }
 
 .headertop-container {
@@ -71,7 +71,6 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    translate: ;
 }
 
 .darkmode p {
@@ -88,7 +87,8 @@ body {
     border-radius: 50px;
     background-color: rgb(225, 225, 226);
     box-shadow: inset 4px 4px 6px rgb(108, 109, 109);
-
+    cursor: pointer;
+    position: relative;
 }
 
 .sun-mode{
@@ -96,7 +96,8 @@ body {
     border-radius: 60px;
     width: auto;
     height: 16px;
-    
+    position: relative;
+   
 }
 
 /* MAIN */
@@ -120,4 +121,37 @@ img {
 .paragraph {
     text-align: center;
     margin: 30px;
+}
+
+/*DARKMODE*/
+
+.dark-mode {
+    background-color: rgb(4, 4, 4);
+    color: white;
+}
+
+.dark-mode .headertop-container {
+    background-color: rgb(4, 4, 4);
+}
+
+.dark-mode .darkmodebutton {
+    background-color: rgb(214, 213, 213);
+
+}
+
+.dark-mode .bangkokTitle p {
+    color: rgb(255, 213, 0);
+}
+
+.dark-mode .darkmode p{
+    color: white;
+
+}
+.dark-mode .sun-mode {
+    background-color: rgb(2, 2, 131);
+    transform: translateX(-35px);
+}
+
+.dark-mode .h1title {
+    color: rgb(255, 213, 0);
 }
